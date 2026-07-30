@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible SnipLayer problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Use non-sensitive sample content. Do not attach private screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: SnipLayer version
+      placeholder: 0.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected and what occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Settings > Copy diagnostics
+      description: Review the text first because Windows error details may contain local paths.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Crash or data loss
+        - Capture/edit/save is blocked
+        - Incorrect result
+        - Cosmetic or minor
+    validations:
+      required: true
