@@ -2,11 +2,13 @@
 
 SnipLayer is a private, local Windows screen-capture app with built-in background removal. Select a region, copy it immediately, open the cutout editor, or save it as transparent PNG/SVG.
 
+Created by [JFLX.CLOUD](https://JFLX.CLOUD/).
+
 ## Download
 
 Open [SnipLayer Releases](https://github.com/JFLXCLOUD/SnipLayer-Releases/releases) and download **SnipLayer-Setup.exe** from the newest release. A portable executable and SHA-256 checksum file are included as alternatives.
 
-The current `0.3.0` release candidate is an unsigned pre-release. Windows may display an **Unknown publisher** or SmartScreen warning until production code signing is enabled. Verify the SHA-256 value published with the release before running a download.
+The current `0.3.1` build is SnipLayer's first stable public download. It is not yet code-signed, so Windows may display an **Unknown publisher** or SmartScreen warning until production signing is enabled. Verify the SHA-256 value published with the release before running a download.
 
 ## Highlights
 
@@ -14,6 +16,7 @@ The current `0.3.0` release candidate is an unsigned pre-release. Windows may di
 - Configurable global shortcut, default `Ctrl+Shift+X`
 - Direct clipboard copy with PNG transparency
 - Local automatic and selective background removal
+- Detail-aware removal for thin text, anti-aliased edges, and enclosed letter counters
 - Keep/Erase brushes, crop, auto-trim, invert, reset, and undo
 - Transparent PNG and SVG export
 - Configurable shortcut, Enter-key action, startup, and notifications
@@ -39,6 +42,8 @@ SnipLayer-Setup.exe /silent [/desktop] [/launch]
 ## Help and policies
 
 - [Report a problem](https://github.com/JFLXCLOUD/SnipLayer-Releases/issues/new/choose)
+- [JFLX.CLOUD](https://JFLX.CLOUD/)
+- [Optional Ko-fi support](https://ko-fi.com/j_b__)
 - [Support guide](SUPPORT.md)
 - [Privacy policy](PRIVACY.md)
 - [Security reporting](SECURITY.md)
